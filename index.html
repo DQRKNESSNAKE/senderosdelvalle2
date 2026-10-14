@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Senderos del Valle S.A.S. - Ecoturismo en Ubaté</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #2e5a27;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+            margin-bottom: 1rem;
+        }
+
+        header h1 {
+            margin: 0.5rem 0;
+            font-size: 2.2rem;
+        }
+
+        header p {
+            font-style: italic;
+            font-size: 1.1rem;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #1f3c1a;
+            padding: 0.8rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #2e5a27;
+            border-bottom: 2px solid #2e5a27;
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+
+        .plan-card {
+            background-color: #fafafa;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .plan-card h3 {
+            color: #1f3c1a;
+            margin-top: 0;
+        }
+
+        /* Dos imágenes por plan */
+        .galeria-plan {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 1rem;
+        }
+
+        .galeria-plan img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 6px;
+            background-color: #dfe8dc;
+        }
+
+        .precio {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #2e5a27;
+            margin-top: 1rem;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            background-color: #2e5a27;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 600px) {
+            .galeria-plan {
+                grid-template-columns: 1fr;
+            }
+            .galeria-plan img {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Cambia 'logo.jpeg' por el nombre real de tu archivo de logo -->
+        <img src="logo.jpeg" alt="Logo de Senderos del Valle S.A.S.">
+        <h1>Senderos del Valle S.A.S.</h1>
+        <p>DESCUBRE LA BELLEZA OCULTA DEL CAMINO</p>
+    </header>
+
+    <nav>
+        <a href="#quienes-somos">Quienes Somos</a>
+        <a href="#planes">Nuestros Planes</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="quienes-somos">
+            <h2>¿Quiénes Somos?</h2>
+            <p>Somos una empresa dedicada a ofrecer experiencias de senderismo seguras, auténticas y agradables, promoviendo un estilo de vida activo y consciente en la región de Ubaté. Buscamos conectar a las personas con la naturaleza de manera responsable, permitiéndoles explorar paisajes únicos y descubrir la riqueza natural y cultural de cada destino, mientras disfrutan de actividades al aire libre que fortalecen el bienestar físico y mental.</p>
+            <p>Contamos con un equipo dinámico de guías capacitados y comprometidos con la seguridad, el respeto por el medio ambiente y la calidad del servicio. Diseñamos rutas seguras, divertidas y adaptadas a cada persona, desde principiantes hasta aventureros más experimentados, fomentando el turismo sostenible como una forma de preservar los ecosistemas y contribuir al desarrollo de las comunidades locales, brindando experiencias memorables, auténticas e inexploradas.</p>
+        </section>
+
+        <section id="planes">
+            <h2>Nuestros Planes de Senderismo</h2>
+
+            <!-- Plan 1 -->
+            <div class="plan-card">
+                <h3>1. Plan "Ruta Quesera & Cerro de la Teta" (Cultural y Familiar)</h3>
+                <div class="galeria-plan">
+                    <img src="teta.jpg" alt="Cerro de la Teta con vista al casco urbano de Ubaté">
+                    <img src="quesos.jpg" alt="Quesos artesanales de Villa de San Diego de Ubaté">
+                </div>
+                <p>Un plan suave e introductorio que mezcla naturaleza, la panorámica del municipio y la identidad láctea de Ubaté.</p>
+                <ul>
+                    <li><strong>Dificultad:</strong> Baja - Moderada (Nivel 3/5).</li>
+                    <li><strong>Duración:</strong> Medio día (4 a 5 horas).</li>
+                    <li><strong>Atractivo principal:</strong> Ascenso guiado al Cerro de la Teta para disfrutar de una vista en 360° del valle.</li>
+                </ul>
+                <p><strong>Servicios incluidos:</strong></p>
+                <ul>
+                    <li>Inducción y charla de seguridad antes de iniciar</li>
+                    <li>Seguro básico de asistencia medica</li>
+                    <li>Kit de primeros auxilios y asistencia prioritaria en caso de emergencia</li>
+                    <li>Hidratación</li>
+                    <li>Refrigerios</li>
+                    <li>Guía profesional y charla sobre la historia ganadera de la zona.</li>
+                    <li>Actividades de integración y recreación</li>
+                    <li>Cata campestre: Degustación de quesos artesanales locales (tipo Paipa, Siete Cueros) y repostería tradicional al finalizar el recorrido.</li>
+                    <li>Registro fotográfico</li>
+                </ul>
+                <p><strong>Sitio de encuentro:</strong> Iglesia Santo Cristo</p>
+                <p><strong>Público ideal:</strong> Familias, adultos mayores activos o grupos que buscan una caminata corta con un componente gastronómico</p>
+                <div class="precio">$ 40.000 COP</div>
+            </div>
+
+            <!-- Plan 2 -->
+            <div class="plan-card">
+                <h3>2. Plan "Senda del Agua & Neusa/Hato" (Ecológico y Fotografía)</h3>
+                <div class="galeria-plan">
+                    <img src="agua.jpg" alt="Embalse con isla de vegetación rodeado de montañas">
+                    <img src="neusa.jpg" alt="Embalse del Neusa rodeado de montañas y bosque">
+                </div>
+                <p>Un recorrido enfocado en la conservación, el agua y la tranquilidad de los embalses y reservas cercanas.</p>
+                <ul>
+                    <li><strong>Dificultad:</strong> Baja - Moderada (Nivel 2/5).</li>
+                    <li><strong>Duración:</strong> Un día completo (6 horas).</li>
+                    <li><strong>Atractivo principal:</strong> Senderismo por los bosques de pino y senderos naturales hacia zonas como el Embalse del Hato o miradores hídricos.</li>
+                </ul>
+                <p><strong>Servicios incluidos:</strong></p>
+                <ul>
+                    <li>Inducción y charla de seguridad antes de iniciar</li>
+                    <li>Seguro básico de asistencia medica</li>
+                    <li>Kit de primeros auxilios y asistencia prioritaria en caso de emergencia</li>
+                    <li>Hidratación</li>
+                    <li>Actividades de integración y recreación</li>
+                    <li>Guía con enfoque en educación ambiental y avistamiento de aves locales</li>
+                    <li>Guías expertos</li>
+                    <li>Refrigerios</li>
+                    <li>Transporte ida y regreso desde el centro de Ubaté hasta el punto de inicio.</li>
+                    <li>Sesión fotográfica digital del grupo durante la ruta.</li>
+                    <li>Opcional: almuerzo (este servicio no viene incluido en este plan)</li>
+                </ul>
+                <p><strong>Sitio de encuentro:</strong> Iglesia Santo Cristo</p>
+                <p><strong>Público ideal:</strong> Amantes de la fotografía, observadores de aves, parejas y grupos de amigos que buscan relajarse.</p>
+                <div class="precio">$ 75.000 COP</div>
+            </div>
+
+            <!-- Plan 3 -->
+            <div class="plan-card">
+                <h3>3. Plan "Caminos Ancestrales & Farallones" (Mística e Historia)</h3>
+                <div class="galeria-plan">
+                    <img src="sendero.jpg" alt="Formaciones rocosas del sendero hacia los Farallones">
+                    <img src="farallones.jpg" alt="Farallón con vista al valle">
+                </div>
+                <p>Ruta de conexión histórica que aprovecha la cercanía con los Farallones de Sutatausa y el patrimonio rupestre de la región.</p>
+                <ul>
+                    <li><strong>Dificultad:</strong> Moderada (Nivel 4/5).</li>
+                    <li><strong>Duración:</strong> Día entero (6 a 7 horas).</li>
+                    <li><strong>Atractivo principal:</strong> Recorrido por antiguos caminos de herradura y senderos que miran hacia la majestuosidad de los Farallones.</li>
+                </ul>
+                <p><strong>Servicios incluidos:</strong></p>
+                <ul>
+                    <li>Inducción y charla de seguridad antes de iniciar</li>
+                    <li>Seguro básico de asistencia medica</li>
+                    <li>Kit de primeros auxilios y asistencia prioritaria en caso de emergencia</li>
+                    <li>Hidratación</li>
+                    <li>Actividades de integración y recreación</li>
+                    <li>Guía cultural/histórico especializado en arte rupestre y patrimonio muisca.</li>
+                    <li>Taller de concientización ambiental y el principio "No Deje Rastro".</li>
+                    <li>Almuerzo típico o campesino en un lugar local aliado al finalizar la caminata.</li>
+                    <li>Registro fotográfico</li>
+                    <li>Guía con enfoque en educación ambiental y avistamiento de aves locales</li>
+                </ul>
+                <p><strong>Sitio de encuentro:</strong> Iglesia Santo Cristo</p>
+                <p><strong>Público ideal:</strong> Turistas internacionales, estudiantes, apasionados de la historia y el senderismo cultural.</p>
+                <div class="precio">$ 150.000 COP</div>
+            </div>
+
+            <!-- Plan 4 -->
+            <div class="plan-card">
+                <h3>4. Plan "Mística de las Cumbres" (Senderismo de Montaña & Aventura)</h3>
+                <div class="galeria-plan">
+                    <img src="chegua.jpg" alt="Vista de los valles y el embalse desde la ruta al Cerro de Chegua">
+                    <img src="ruta chegua.jpg" alt="Capilla en la cima del Cerro de Chegua">
+                </div>
+                <p>Pensado para quienes buscan reto físico y conectar con la biodiversidad del bosque Alto Andino y los miradores de la provincia.</p>
+                <ul>
+                    <li><strong>Dificultad:</strong> Alta (Nivel 4/5).</li>
+                    <li><strong>Duración:</strong> Día entero (6 a 8 horas).</li>
+                    <li><strong>Atractivo principal:</strong> Travesía por las crestas montañosas hacia cimas como el Cerro de Chegua o el Mirador de Sucre, bordeando el límite entre el valle y la serranía.</li>
+                </ul>
+                <p><strong>Servicios incluidos:</strong></p>
+                <ul>
+                    <li>Inducción y charla de seguridad antes de iniciar</li>
+                    <li>Seguro básico de asistencia medica</li>
+                    <li>Kit de primeros auxilios y asistencia prioritaria en caso de emergencia</li>
+                    <li>Hidratación</li>
+                    <li>Guías locales expertos en navegación de montaña.</li>
+                    <li>Almuerzo de marcha estilo picnic (opciones energéticas y sostenibles).</li>
+                    <li>Actividades de integración y recreación</li>
+                    <li>Refrigerios</li>
+                    <li>Taller rápido de orientación básica con mapa y brújula durante el camino.</li>
+                    <li>Registro fotográfico</li>
+                    <li>Guía con enfoque en educación ambiental y avistamiento de aves locales</li>
+                </ul>
+                <p><strong>Sitio de encuentro:</strong> Iglesia Santo Cristo</p>
+                <p><strong>Público ideal:</strong> Montañistas, jóvenes, y amantes del trekking exigente.</p>
+                <div class="precio">$ 180.000 COP</div>
+            </div>
+
+        </section>
+
+        <section id="contacto">
+            <h2>Contactos</h2>
+            <p>Si deseas comunicarte con nosotros para obtener más información sobre las rutas o resolver dudas, puedes encontrarnos a través de los siguientes medios:</p>
+            <ul>
+                <li><strong>Teléfono / WhatsApp:</strong> 3227129015 </li>
+                <li><strong>Correo Electrónico:</strong> senderosdelvallesas@gmail.com</li>
+                <li><strong>Ubicación:</strong> Ubaté, Cundinamarca, Colombia</li>
+                <li><strong>Direccion de la sede principal</strong> Cra 7 # 14-01</li>
+                <li><strong>Punto de Salida Principal:</strong> Iglesia Santo Cristo</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Senderos del Valle S.A.S.</p>
+    </footer>
+
+</body>
+</html>
